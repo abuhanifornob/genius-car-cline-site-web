@@ -5,8 +5,9 @@ import router from './Router/Routes/Routes';
 
 function App() {
 
+
   return (
-    <div>
+    <div data-theme="cupcake" className='max-w-6xl mx-auto'>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
